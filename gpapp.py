@@ -2,6 +2,8 @@ import streamlit as st
 import time
 
 
+st.set_page_config(page_title="GpCalc by Lambda", page_icon="📙")
+
 with st.container():
     st.write("""
     ### GPA/CGPA CALCULATOR
