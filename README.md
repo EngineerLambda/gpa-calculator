@@ -48,3 +48,5 @@ $$ gpa = {\sum(unit \times\ value\text{ of }grade) \over \sum unit} $$
 | Less than 2.0 | Others|
 
 This web app takes all of the above into consideration for the calculation and classificaton of the GPA/CGPA 
+
+[Link to web app](https://engineerlambda-gpa-calculator.streamlit.app/)
