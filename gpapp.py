@@ -14,6 +14,8 @@ with st.container():
 with st.expander("How to use?"):
     st.write("""
     1. Check the side bar on the left to select your GPA system, it is set to 5.0 system by default
+    2. Select whether you want to calculate a fresh CGPA or you want to enter a previous CGPA with the previous number of units.
+    3. If `Old` is selected (***skip this step otherwise***), enter the number of units from your previous CGPA and the CGPA value using the appropriate spaces provided.
     2. Fill in the number of courses you want to use in the calculation of your GPA, in the provided field
     3. select the unit and grade in the approproiate selection box provided
     4. Don't worry if you are not sure yet, you can always add a new field by clicking on the plus sign on the input field
