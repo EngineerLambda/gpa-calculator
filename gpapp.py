@@ -3,7 +3,7 @@ import time
 import random
 
 
-st.set_page_config(page_title="GpCalc by Lambda", page_icon="📙h")
+st.set_page_config(page_title="GpCalc by Lambda", page_icon="📙")
 
 with st.container():
     st.write("""
