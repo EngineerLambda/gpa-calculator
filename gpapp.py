@@ -65,7 +65,7 @@ def main():
         with col1:
             unit = st.selectbox(f"Select the unit of the {positions(i)} course", range(1,7))
         with col2:
-            grades = st.selectbox("Select your grade", grades_array, key=i + random.random())
+            grades = st.selectbox("Select your grade", grades_array, key=i)
             grade_val = grade_dict[grades]
         point = unit*grade_val
         total_points += point
