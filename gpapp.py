@@ -3,7 +3,7 @@ import time
 import random
 
 
-st.set_page_config(page_title="GpCalc by Lambda", page_icon="📙")
+st.set_page_config(page_title="GpCalc by Lambda", page_icon="📙h")
 
 with st.container():
     st.write("""
@@ -129,6 +129,3 @@ else:
     final_cgpa = cumm_total / cumm_units
 
     bt(final_cgpa)
-    
-
-    
